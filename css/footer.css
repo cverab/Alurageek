@@ -1,0 +1,17 @@
+.aluraGeek__footer {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
+.aluraGeek__footer-parrafo{
+    color: var(--fuente-texto);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

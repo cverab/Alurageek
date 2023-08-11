@@ -1,0 +1,23 @@
+:root {
+    --raleway: 'Raleway', sans-serif;
+    --fondo-claro: #F5F5F5;
+    --fuente-texto: #464646;
+    --anchor: #464646;
+    --azul-100: #247AE4;
+    --azul-10: #EAF2FD;
+    --gris: #A2A2A2;
+}
+
+body {
+    margin: 0;
+    font-family: var(--raleway);
+    /*padding: 0;*/
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}

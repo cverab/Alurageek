@@ -1,0 +1,50 @@
+.aluraGeek__productos-listaDeProductos-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex: 1 0 0;
+}
+
+.aluraGeek__productos-listaDeProductos-producto-img {
+    display: flex;
+    height: 10.875rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    background: #FFF;
+}
+
+.aluraGeek__productos-listaDeProductos-producto-img-img {
+    flex: 1 0 0;
+    align-self: stretch;
+    background: url(../../img/flechaDerecha.png), lightgray 50% / cover no-repeat;
+}
+
+.aluraGeek__productos-listaDeProductos-producto-item {
+    align-self: stretch;
+    color: var(--fuente-texto);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.aluraGeek__productos-listaDeProductos-producto-precio {
+    align-self: stretch;
+    color: var(--anchor);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.aluraGeek__productos-listaDeProductos-producto-enlace {
+    color: var(--azul-100);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

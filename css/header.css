@@ -1,0 +1,32 @@
+.aluraGeek__header {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aluraGeek__header-logo {
+    width: 100px;
+}
+
+.aluraGeek__header-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--azul-100);
+    color: var(--azul-100);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    width: 133px;
+    height: 40px;
+}
+
+.aluraGeek__header-busqueda {
+    height: 24px;
+    width: 24px;
+}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:1440px) {}

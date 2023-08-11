@@ -1,0 +1,6 @@
+.aluraGeek__productos-listaDeProductos {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
