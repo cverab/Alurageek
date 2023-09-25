@@ -1,21 +1,27 @@
-.banner {
-    background-color: chartreuse;
-    padding-bottom: 1rem;
-}
-
 .aluraGeek__banner {
-    display: flex;
-    height: 192px;
-    padding: 16px;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    gap: 16px;
+    /* display: flex; */
+    display: none;
+    height: 12rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: flex-center;
+    gap: 1rem;
     align-self: stretch;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),
         linear-gradient(180deg, rgba(0, 0, 0, 0.00) 41.15%, rgba(0, 0, 0, 0.80) 100%),
         url(../img/banner.jpeg), lightgray 50%;
     background-size: cover;
+    background-position: center;
+}
+
+.aluraGeek__banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    width: 100%;
 }
 
 .aluraGee__banner-encabezado {
@@ -42,4 +48,42 @@
     gap: 0.625rem;
     background: var(--azul-100);
     color: #FFF;
+}
+
+@media screen and (min-width:768px) {
+    .aluraGeek__banner {
+        height: 22rem;
+    }
+
+    .aluraGeek__banner-container {
+        gap: 1rem;
+    }
+
+    .aluraGee__banner-encabezado {
+        font-size: 3.25rem;
+    }
+
+    .aluraGeek__banner-parrafo {
+        font-size: 1.375rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .aluraGeek__banner {
+        padding: 2rem;
+    }
+
+    .aluraGeek__banner-container {
+        width: 71rem;
+    }
+
+    .aluraGee__banner-encabezado {
+        font-size: 3.25rem;
+    }
+
+    .aluraGeek__banner-parrafo {
+        font-size: 1.375rem;
+        font-weight: 700;
+    }
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
-    flex: 1 0 0;
+    width: 9.75rem;
 }
 
 .aluraGeek__productos-listaDeProductos-producto-img {
@@ -15,12 +15,15 @@
     gap: 0.5rem;
     align-self: stretch;
     background: #FFF;
+    width: 100%;
 }
 
 .aluraGeek__productos-listaDeProductos-producto-img-img {
     flex: 1 0 0;
     align-self: stretch;
-    background: url(../../img/flechaDerecha.png), lightgray 50% / cover no-repeat;
+    background: lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .aluraGeek__productos-listaDeProductos-producto-item {
@@ -47,4 +50,16 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+@media screen and (min-width:768px) {
+    .aluraGeek__productos-listaDeProductos-producto {
+        width: 10.25rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .aluraGeek__productos-listaDeProductos-producto {
+        width: 11rem;
+    }
 }

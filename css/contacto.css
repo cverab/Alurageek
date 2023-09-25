@@ -9,12 +9,20 @@
     background: var(--azul-10);
 }
 
+.aluraGeek__contacto-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .aluraGeek__contacto-enlaces {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    align-self: stretch;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .aluraGeek__contacto-enlaces-enlace {
@@ -46,14 +54,15 @@
 
 .aluraGeek__contacto-formulario-div-inputNombre {
     display: flex;
-    padding-top: 8px;
+    padding: 0.5rem 0.75rem 0.4375rem 0.75rem;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    gap: 0.4375rem;
     align-self: stretch;
     border-radius: 0.25rem;
     background: #FFF;
+    border-bottom: solid var(--preto-30) 0.0625rem;
+    ;
 }
 
 .aluraGeek__contacto-formulario-div-inputNombre-label {
@@ -62,20 +71,42 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1rem;
-    /* 133.333% */
 }
 
-.aluraGeek__contacto-formulario-inputMensaje {
+.aluraGeek__contacto-formulario-div-inputNombre-input {
     display: flex;
-    padding-top: 16px;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    outline: none;
+}
+
+.aluraGeek__contacto-formulario-div-inputMensaje {
+    display: flex;
+    padding: 0.5rem 0.75rem 0.4375rem 0.75rem;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    gap: 2.8125rem;
-    flex: 1 0 0;
     align-self: stretch;
     border-radius: 0.25rem;
     background: #FFF;
+    border-bottom: solid var(--preto-30) 0.0625rem;
+}
+
+.aluraGeek__contacto-formulario-div-inputMensaje-label {
+    color: var(--gris);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.aluraGeek__contacto-formulario-div-inputMensaje-input {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    outline: none;
 }
 
 .aluraGeek__contacto-formulario-boton {
@@ -93,4 +124,58 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+@media screen and (min-width:768px) {
+    .aluraGeek__contacto {
+        padding: 2rem;
+        flex-direction: row;
+        gap: 1rem;
+        align-self: stretch;
+    }
+
+    .aluraGeek__contacto-box {
+        display: flex;
+        flex-direction: row;
+        width: 71rem;
+        align-items: flex-start;
+        /*     gap: 7rem; */
+    }
+
+    .aluraGeek__contacto-izq {
+        display: flex;
+        width: 15.875rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .aluraGeek__contacto-enlaces {
+        width: 15.875rem;
+        align-items: flex-start;
+    }
+
+    .aluraGeek__contacto-formulario {
+        gap: 0.5rem;
+        flex: 1 0 0;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .aluraGeek__contacto {
+        padding: 4rem;
+        gap: 7.1875rem;
+    }
+
+    .aluraGeek__contacto-box {
+        width: 71rem;
+    }
+
+    .aluraGeek__contacto-izq {
+        display: flex;
+        width: 30rem;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 }

@@ -6,15 +6,15 @@
     --azul-100: #247AE4;
     --azul-10: #EAF2FD;
     --gris: #A2A2A2;
+    --preto-30: #C8C8C8;
 }
 
 body {
     margin: 0;
     font-family: var(--raleway);
-    /*padding: 0;*/
 }
 
-a{
+a {
     text-decoration: none;
 }
 

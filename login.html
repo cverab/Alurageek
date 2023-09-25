@@ -1,18 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-        <title>AluraGeek - Login
-            
-        </title>
-    </head>
-    <body>
-        <header>
-            <img src="" alt="Logo AluraGeek"><button></button><img src="" alt="Icomo Busqueda">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>AluraGeek - Login</title>
+</head>
+
+<body>
+    <!--Header-->
+    <div class="aluraGeek__header-container">
+        <header class="aluraGeek__header">
+            <div class="aluraGeek__header-left">
+                <img class="aluraGeek__header-logo" src="img/Logo.png" alt="AluraGeek Logo"></li>
+                <form action="" class="aluraGeek__header-form">
+                    <input type="text" class="aluraGeek__header-form-input" placeholder="¿Qué deseas buscar?">
+                    <img src="img/Icone.png" alt="Icono de busqueda" class="aluraGeek__header-form-img">
+                </form>
+            </div>
+            <img class="aluraGeek__header-busqueda-mobile" src="img/Icone.png" alt="Icono de busqueda">
         </header>
-    </body>
+    </div>
+    <!--Login-->
+    <div class="aluraGeek__login-formulario-container">
+        <form class="aluraGeek__login-formulario" action="">
+            <h2 class="aluraGeek__login-formulario-encabezado">Iniciar sesión</h2>
+            <div class="aluraGeek__login-formulario-div-inputEmail">
+                <input class="aluraGeek__login-formulario-div-inputEmail-input" type="text"
+                    placeholder="Escriba su correo electrónico">
+            </div>
+            <div class="aluraGeek__login-formulario-div-inputPassword">
+                <input class="aluraGeek__login-formulario-div-inputPassword-input" type="text"
+                    placeholder="Escriba su contraseña">
+            </div>
+            <div class="aluraGeek__login-formulario-boton">
+                <a href="#">Entrar</a>
+            </div>
+        </form>
+    </div>
+    <!--contacto-->
+    <section class="aluraGeek__contacto">
+        <div class="aluraGeek__contacto-box">
+            <div class="aluraGeek__contacto-izq">
+                <img src="/img/Logo.png" alt="AluraGeek Logo">
+                <ul class="aluraGeek__contacto-enlaces">
+                    <li class="aluraGeek__contacto-enlaces-enlace">Quienes somos</li>
+                    <li class="aluraGeek__contacto-enlaces-enlace">Politica de privacidad</li>
+                    <li class="aluraGeek__contacto-enlaces-enlace">Programa de fidelidad</li>
+                    <li class="aluraGeek__contacto-enlaces-enlace">Nuestras tiendas</li>
+                    <li class="aluraGeek__contacto-enlaces-enlace">Quiero ser franquiciado</li>
+                    <li class="aluraGeek__contacto-enlaces-enlace">Anuncia aquí</li>
+                </ul>
+            </div>
+            <form class="aluraGeek__contacto-formulario" action="">
+                <h2 class="aluraGeek__contacto-formulario-encabezado">Hable con nosotros</h2>
+                <div class="aluraGeek__contacto-formulario-div-inputNombre">
+                    <label class="aluraGeek__contacto-formulario-div-inputNombre-label">Nombre</label>
+                    <input class="aluraGeek__contacto-formulario-div-inputNombre-input" type="text"
+                        placeholder="Ingrese su nombre">
+                </div>
+                <div class="aluraGeek__contacto-formulario-div-inputMensaje">
+                    <label class="aluraGeek__contacto-formulario-div-inputMensaje-label">Escribe tu mensaje</label>
+                    <input class="aluraGeek__contacto-formulario-div-inputMensaje-input" type="text">
+                </div>
+                <div class="aluraGeek__contacto-formulario-boton">
+                    <a href="#">Enviar mensaje</a>
+                </div>
+        </div>
+        </form>
+    </section>
+    <!--footer-->
+    <footer class="aluraGeek__footer">
+        <p class="aluraGeek__footer-parrafo"></p>Desarrollado por Carlos Vera 2023</p>
+    </footer>
+</body>
+
 </html>

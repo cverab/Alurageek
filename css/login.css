@@ -1,0 +1,147 @@
+.aluraGeek__login-formulario-container {
+    display: flex;
+    background-color: var(--fondo-claro);
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.aluraGeek__login-formulario {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    align-self: center;
+    background-color: var(--fondo-claro);
+    width: 17.1875rem;
+}
+
+.aluraGeek__login-formulario-encabezado {
+    color: var(--fuente-texto);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: center;
+}
+
+.aluraGeek__login-formulario-div-inputEmail {
+    display: flex;
+    padding: 0.5rem 0.75rem 0.4375rem 0.75rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 0.25rem;
+    background: #FFF;
+    border-bottom: solid var(--preto-30) 0.0625rem;
+}
+
+.aluraGeek__login-formulario-div-inputEmail-input {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    outline: none;
+}
+
+.aluraGeek__login-formulario-div-inputEmail-input::placeholder {
+    color: var(--gris);
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.aluraGeek__login-formulario-div-inputPassword {
+    display: flex;
+    padding: 0.5rem 0.75rem 0.4375rem 0.75rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 0.25rem;
+    background: #FFF;
+    border-bottom: solid var(--preto-30) 0.0625rem;
+}
+
+.aluraGeek__login-formulario-div-inputPassword-input {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    outline: none;
+}
+
+.aluraGeek__login-formulario-div-inputPassword-input::placeholder {
+    color: var(--gris);
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.aluraGeek__login-formulario-boton {
+    display: flex;
+    width: 6.8125rem;
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    align-self: center;
+    gap: 0.625rem;
+    background: var(--azul-100);
+}
+
+.aluraGeek__login-formulario-boton a {
+    color: #FFF;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:1440px) {
+    .aluraGeek__login-formulario-container {
+        justify-content: center;
+        padding: 4rem 0;
+        flex-direction: row;
+    }
+
+    .aluraGeek__login-formulario {
+        width: 34.9375rem;
+        align-items: flex-start;
+    }
+
+    .aluraGeek__login-formulario-div-inputEmail {
+        display: flex;
+        padding: 0.5rem 0.75rem 0.4375rem 0.75rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: stretch;
+        border-radius: 0.25rem;
+        background: #FFF;
+        border-bottom: solid var(--preto-30) 0.0625rem;
+        height: 3.94544rem;
+        flex-shrink: 0;
+    }
+
+    .aluraGeek__login-formulario-div-inputPassword {
+        display: flex;
+        padding: 0.5rem 0.75rem 0.4375rem 0.75rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: stretch;
+        border-radius: 0.25rem;
+        background: #FFF;
+        border-bottom: solid var(--preto-30) 0.0625rem;
+        height: 3.94544rem;
+        flex-shrink: 0;
+    }
+}

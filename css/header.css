@@ -1,15 +1,40 @@
+.aluraGeek__header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .aluraGeek__header {
     display: flex;
     margin: 1rem;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .aluraGeek__header-logo {
-    width: 100px;
+    display: flex;
+    width: 6.25rem;
+}
+
+.aluraGeek__header-form {
+    display: none;
 }
 
 .aluraGeek__header-login {
+    display: flex;
+    width: 8.3125rem;
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border: 1px solid var(--azul-100);
+    color: var(--azul-100);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.aluraGeek__header-admin {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,15 +43,101 @@
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
-    width: 133px;
-    height: 40px;
+    width: 10.375rem;
+    padding: 0.75rem 0;
 }
 
-.aluraGeek__header-busqueda {
-    height: 24px;
-    width: 24px;
+.aluraGeek__header-busqueda-mobile {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+    .aluraGeek__header {
+        margin: 1rem 2rem;
+        align-self: stretch;
+    }
 
-@media screen and (min-width:1440px) {}
+    .aluraGeek__header-left {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .aluraGeek__header-form {
+        display: flex;
+        width: 17rem;
+        padding: 0.5rem 1rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.25rem;
+        background: var(--fondo-claro);
+    }
+
+    .aluraGeek__header-form-input {
+        display: flex;
+        align-items: flex-start;
+        flex: 1 0 0;
+        outline: none;
+        border: none;
+        background: var(--fondo-claro);
+    }
+
+    .aluraGeek__header-form-input::placeholder {
+        color: var(--gris);
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+
+    .aluraGeek__header-form-img {
+        width: 1.5rem;
+        height: 1.5rem;
+        flex-shrink: 0;
+    }
+
+    .aluraGeek__header-login {
+        width: 10.375rem;
+    }
+
+    .aluraGeek__header-admin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--azul-100);
+        color: var(--azul-100);
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        width: 10.375rem;
+    }
+
+    .aluraGeek__header-busqueda-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .aluraGeek__header-container {
+        justify-content: center;
+    }
+
+    .aluraGeek__header {
+        width: 71rem;
+        padding: 1rem 0;
+        justify-content: space-between;
+        align-items: center;
+        background: #FFF;
+    }
+
+    .aluraGeek__header-logo {
+        width: 11rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aluraGeek__header-form {
+        width: 24.5625rem;
+    }
+}

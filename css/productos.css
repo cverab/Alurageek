@@ -40,3 +40,24 @@
     width: 1rem;
     height: 1rem;
 }
+
+@media screen and (min-width:768px) {
+    .aluraGeek__productos {
+        padding: 2rem;
+    }
+
+    .aluraGeek__productos-encabezado-subtitulo {
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .aluraGeek__productos-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aluraGeek__productos {
+        width: 71rem;
+    }
+}

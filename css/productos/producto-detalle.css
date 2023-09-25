@@ -1,0 +1,123 @@
+.aluraGeek__producto-detallado-img {
+    display: flex;
+    height: 12rem;
+    align-self: center;
+}
+
+.aluraGeek__producto-detallado-img-img {
+    width: 100%;
+    height: 100%;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.aluraGeek__producto-detallado-texto {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.aluraGeek__producto-detallado-textoEncabezado {
+    align-self: stretch;
+    color: var(--fuente-texto);
+    font-family: var(--raleway);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.aluraGeek__producto-detallado-textoPrecio {
+    color: var(--fuente-texto);
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.aluraGeek__producto-detallado-textoDescripcion {
+    align-self: stretch;
+    color: var(--fuente-texto);
+    font-family: var(--raleway);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (min-width:768px) {
+    .aluraGeek__producto-detallado {
+        background: var(--fondo-claro);
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+        align-self: stretch;
+    }
+
+    .aluraGeek__producto-detallado-box {
+        display: flex;
+        justify-content: space-around;
+        width: 44rem;
+    }
+
+    .aluraGeek__producto-detallado-img {
+        width: 15.875rem;
+        align-self: stretch;
+    }
+
+    .aluraGeek__producto-detallado-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        align-self: stretch;
+        width: 24.125rem;
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+    .aluraGeek__producto-detallado {
+        align-items: center;
+        gap: 4rem;
+        justify-content: center;
+    }
+
+    .aluraGeek__producto-detallado-box {
+        display: flex;
+        align-items: center;
+        width: 71rem;
+        gap: 1rem;
+        padding: 4rem 0;
+    }
+
+    .aluraGeek__producto-detallado-img {
+        width: 35rem;
+        height: 25.1875rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .aluraGeek__producto-detallado-texto {
+        align-self: center;
+        width: 35rem;
+    }
+
+    .aluraGeek__producto-detallado-textoEncabezado {
+        align-self: stretch;
+        color: var(--fuente-texto);
+        font-family: var(--raleway);
+        font-size: 3.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .aluraGeek__producto-detallado-textoDescripcion {
+        font-size: 1rem;
+    }
+}

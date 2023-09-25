@@ -1,6 +1,16 @@
+/* .aluraGeek__productos-categoria-grupo{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+} */
+
 .aluraGeek__productos-listaDeProductos {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
     align-self: stretch;
+    flex-wrap: wrap;
+    justify-content: left;
 }
