@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/productos.css">
-    <link rel="stylesheet" href="css/productos/producto-lista.css">
+    <link rel="stylesheet" href="css/productos/producto-detalle.css">
+    <link rel="stylesheet" href="css/productos/producto-similares.css">
     <link rel="stylesheet" href="css/productos/producto.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <title>AluraGeek - Home</title>
+    <title>AluraGeek - Productos</title>
 </head>
 
 <body>
@@ -34,18 +34,14 @@
             <img class="aluraGeek__header-busqueda-mobile" src="img/Icone.png" alt="Icono de busqueda">
         </header>
     </div>
-    <!--Banner-->
-    <section class="aluraGeek__banner">
-        <div class="aluraGeek__banner-container">
-            <h2 class="aluraGee__banner-encabezado">Diciembre promocional</h2>
-            <p class="aluraGeek__banner-parrafo">Productos seleccionados con 33% de descuento</p>
-            <a class="aluraGeek__banner-boton" href="/productos.html?categoria=Consolas">Ver Consolas</a>
-        </div>
-    </section>
-    <!--Lista de productos-->
-    <div class="aluraGeek__productos-container">
-        <!--Categoria de producto-->
-        <section class="aluraGeek__productos-categoria-grupo" data-category>
+    <!--Lista de productos similares-->
+    <div class="aluraGeek__productosSimilares-container">
+        <section class="aluraGeek__productosSimilares">
+            <div class="aluraGeek__productosSimilares-encabezado">
+                <h2 class="aluraGeek__productosSimilares-encabezado-titulo" data-categoria>Todos los productos</h2>
+            </div>
+            <div class="aluraGeek__productosSimilares-listaDeProductos" data-similares>
+            </div>
         </section>
     </div>
     <!--contacto-->
@@ -83,7 +79,7 @@
     <footer class="aluraGeek__footer">
         <p class="aluraGeek__footer-parrafo"></p>Desarrollado por Carlos Vera 2023</p>
     </footer>
-    <script src="/controllers/listP.js" type="module"></script>
+    <script src="/controllers/productS.js" type="module"></script>
 </body>
 
 </html>

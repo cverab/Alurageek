@@ -57,6 +57,23 @@ const detalleProducto = async () => {
 }
 detalleProducto()
 
+const urlCategoria = window.location.search;
+const productoCategoria = urlCategoria.replace("?categoria=", "")
+const categoriaTitulo = document.querySelector("[data-categoria]")
+const renombrarCategoria = async () => {
+    const listaCat = await servicios.listP()
+    listaCat.filter(productos => {
+        if (productoCategoria == productos.categoria) {
+            categoriaTitulo.innerHTML = `${productos.categoria}`
+        }
+    })
+
+
+}
+
+renombrarCategoria()
+
+
 const productosSimilares = document.querySelector("[data-similares]")
 const similarProducto = async () => {
     try {

@@ -159,6 +159,206 @@
       "precio": "$9999",
       "descripcion": "Swingea por la ciudad de Nueva York con este Funko Pop del Hombre Araña, con su traje rojo y azul y su lanzatelarañas.",
       "id": 20
+    },
+    {
+      "imgUrl": "./img/21.jpg",
+      "categoria": "Starwars",
+      "nombre": "El atari",
+      "precio": "$33000",
+      "descripcion": "La última consola de una conocida marca, con capacidades de gráficos de vanguardia y una amplia biblioteca de juegos exclusivos.",
+      "id": 21
+    },
+    {
+      "imgUrl": "./img/22.jpg",
+      "categoria": "Starwars",
+      "nombre": "Game station",
+      "precio": "$33000",
+      "descripcion": "Una consola portátil que te permite jugar tus juegos favoritos en cualquier lugar, desde largos viajes en tren hasta escapadas de fin de semana.",
+      "id": 22
+    },
+    {
+      "imgUrl": "./img/23.jpg",
+      "categoria": "Starwars",
+      "nombre": "Tetrisland",
+      "precio": "$34999",
+      "descripcion": "Una consola retro que te lleva de vuelta a la década de 1980 con sus gráficos pixelados y clásicos juegos arcade.",
+      "id": 23
+    },
+    {
+      "imgUrl": "./img/24.jpg",
+      "categoria": "Starwars",
+      "nombre": "Cubosfera",
+      "precio": "$4",
+      "descripcion": "Una consola híbrida que se puede usar tanto en el televisor de tu sala de estar como en modo portátil sobre la marcha.",
+      "id": 24
+    },
+    {
+      "imgUrl": "./img/25.jpg",
+      "categoria": "Starwars",
+      "nombre": "Catan",
+      "precio": "$23",
+      "descripcion": " Un juego de estrategia donde los jugadores compiten por recursos y construyen colonias en una isla ficticia, todo mientras negocian y comercian con astucia.",
+      "id": 25
+    },
+    {
+      "imgUrl": "./img/26.jpg",
+      "categoria": "Starwars",
+      "nombre": "Ticket to ride",
+      "precio": "$444",
+      "descripcion": " Embárcate en un viaje por todo el país en este juego de ferrocarriles, donde debes conectar ciudades y completar rutas antes que tus oponentes.",
+      "id": 26
+    },
+    {
+      "imgUrl": "./img/27.jpg",
+      "categoria": "Starwars",
+      "nombre": "Playgear",
+      "precio": "$99999",
+      "descripcion": "Una consola que se enfoca en la compatibilidad con versiones anteriores, permitiéndote jugar juegos de generaciones anteriores en una sola plataforma.",
+      "id": 27
+    },
+    {
+      "imgUrl": "./img/28.jpg",
+      "categoria": "Starwars",
+      "nombre": "PolyPoly",
+      "precio": "$9866",
+      "descripcion": "Una consola compacta diseñada para jugar juegos indie y retro en una pantalla de alta definición.",
+      "id": 28
+    },
+    {
+      "imgUrl": "./img/29.jpg",
+      "categoria": "Starwars",
+      "nombre": "Explorador Espacial Zog",
+      "precio": "$9999",
+      "descripcion": "Este Funko Pop representa a Zog, un intrépido explorador espacial con un traje de astronauta futurista y un casco transparente que revela su rostro de alienígena curioso",
+      "id": 29
+    },
+    {
+      "imgUrl": "./img/30.jpg",
+      "categoria": "Starwars",
+      "nombre": "Agricola",
+      "precio": "$9999",
+      "descripcion": "Experimenta la vida de un agricultor en este juego de gestión de recursos, donde debes cultivar cosechas, criar animales y expandir tu granja para prosperar.",
+      "id": 30
+    },
+    {
+      "imgUrl": "./img/31.jpg",
+      "categoria": "Starwars",
+      "nombre": "JuegoLandia",
+      "precio": "$33000",
+      "descripcion": "Una consola de juegos de mesa que combina la diversión de los videojuegos con la interacción social en persona.",
+      "id": 31
+    },
+    {
+      "imgUrl": "./img/32.jpg",
+      "categoria": "Starwars",
+      "nombre": "Ninten y sus amigos",
+      "precio": "$33000",
+      "descripcion": "Una consola de mano que se destaca por su durabilidad y resistencia, ideal para jugadores en movimiento.",
+      "id": 32
+    },
+    {
+      "imgUrl": "./img/33.jpg",
+      "categoria": "Starwars",
+      "nombre": "Darth Vader",
+      "precio": "$4444",
+      "descripcion": "Únete al lado oscuro con este icónico Funko Pop de Darth Vader de Star Wars, con su casco negro y capa.",
+      "id": 33
+    },
+    {
+      "imgUrl": "./img/34.jpg",
+      "categoria": "Starwars",
+      "nombre": "RanitaStation",
+      "precio": "$45555",
+      "descripcion": "Una consola de realidad virtual que te sumerge por completo en mundos virtuales asombrosos y emocionantes.",
+      "id": 34
+    },
+    {
+      "imgUrl": "./img/35.jpg",
+      "categoria": "Starwars",
+      "nombre": "FamiJuego",
+      "precio": "$5523",
+      "descripcion": "Una consola clásica que sigue siendo muy querida por su biblioteca de juegos atemporales y su simplicidad.",
+      "id": 35
+    },
+    {
+      "imgUrl": "./img/36.jpg",
+      "categoria": "Starwars",
+      "nombre": "LaNuevaXP",
+      "precio": "$567658",
+      "descripcion": "La consola de próxima generación con un potente procesador y capacidades de juego en 4K para una experiencia visual impresionante.",
+      "id": 36
+    },
+    {
+      "imgUrl": "./img/37.png",
+      "categoria": "Funko",
+      "nombre": "LaEjercitadora",
+      "precio": "$99999",
+      "descripcion": "Una consola de edición limitada con un diseño exclusivo basado en un juego o franquicia popular.",
+      "id": 37
+    },
+    {
+      "imgUrl": "./img/38.png",
+      "categoria": "Funko",
+      "nombre": "Realidad Alternativa",
+      "precio": "$33023",
+      "descripcion": "Sumérgete en una historia emocional y toma decisiones que afectarán el destino de los personajes en este juego narrativo",
+      "id": 38
+    },
+    {
+      "imgUrl": "./img/39.png",
+      "categoria": "Funko",
+      "nombre": "TimeBoy",
+      "precio": "$9999",
+      "descripcion": "Viaja en el tiempo y resuelve acertijos complejos para salvar el mundo en este juego de aventuras de viajes en el tiempo.",
+      "id": 39
+    },
+    {
+      "imgUrl": "./img/40.png",
+      "categoria": "Funko",
+      "nombre": "Spider-Man",
+      "precio": "$9999",
+      "descripcion": "Swingea por la ciudad de Nueva York con este Funko Pop del Hombre Araña, con su traje rojo y azul y su lanzatelarañas.",
+      "id": 40
+    },
+    {
+      "imgUrl": "./img/41.png",
+      "categoria": "Consolas",
+      "nombre": "El atari",
+      "precio": "$33000",
+      "descripcion": "La última consola de una conocida marca, con capacidades de gráficos de vanguardia y una amplia biblioteca de juegos exclusivos.",
+      "id": 41
+    },
+    {
+      "imgUrl": "./img/42.png",
+      "categoria": "Consolas",
+      "nombre": "Game station",
+      "precio": "$33000",
+      "descripcion": "Una consola portátil que te permite jugar tus juegos favoritos en cualquier lugar, desde largos viajes en tren hasta escapadas de fin de semana.",
+      "id": 42
+    },
+    {
+      "imgUrl": "./img/43.png",
+      "categoria": "Consolas",
+      "nombre": "Tetrisland",
+      "precio": "$34999",
+      "descripcion": "Una consola retro que te lleva de vuelta a la década de 1980 con sus gráficos pixelados y clásicos juegos arcade.",
+      "id": 43
+    },
+    {
+      "imgUrl": "./img/44.png",
+      "categoria": "Funko",
+      "nombre": "Cubosfera",
+      "precio": "$4",
+      "descripcion": "Una consola híbrida que se puede usar tanto en el televisor de tu sala de estar como en modo portátil sobre la marcha.",
+      "id": 44
+    },
+    {
+      "imgUrl": "./img/45.png",
+      "categoria": "Funko",
+      "nombre": "Catan",
+      "precio": "$23",
+      "descripcion": " Un juego de estrategia donde los jugadores compiten por recursos y construyen colonias en una isla ficticia, todo mientras negocian y comercian con astucia.",
+      "id": 45
     }
   ]
 }

@@ -1,6 +1,5 @@
 .aluraGeek__banner {
-    /* display: flex; */
-    display: none;
+    display: flex;
     height: 12rem;
     padding: 1rem;
     justify-content: center;
