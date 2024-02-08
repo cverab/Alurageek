@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/productos"
+const url = "https://json-server-vercel-steel-sigma.vercel.app/productos"
 
 const listP = () => {
     return fetch(url)
